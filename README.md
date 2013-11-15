@@ -1,15 +1,14 @@
 ## Haskell development kit for prismic.io
 
-### API documentation
+Work in progress, nothing usable yet.
 
-You can browse the [API documentation](https://developers.prismic.io/documentation/UjBe8bGIJ3EKtgBZ/api-documentation).
+See the [API documentation](https://developers.prismic.io/documentation/UjBe8bGIJ3EKtgBZ/api-documentation).
 
 ### Licence
 
 This software is licensed under the MIT license, quoted below.
 
-Copyright (c) 2013 Thibault Duplessis
-
+```
 The MIT license
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -29,3 +28,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+```

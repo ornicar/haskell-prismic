@@ -1,0 +1,36 @@
+Name: prismic
+Version: 0.1
+Cabal-Version: >= 1.8
+Build-type: Simple
+License: MIT
+License-file: README.md
+Author: Thibault Duplessis <thibault.duplessis@gmail.com>
+Maintainer: Thibault Duplessis <thibault.duplessis@gmail.com>
+Homepage: https://github.com/ornicar/haskell-prismic
+Category: Network
+Synopsis: A library for prismic.io in Haskell
+Description:
+
+  Haskell development kit for prismic.io
+
+Source-Repository head
+  type: git
+  location: https://github.com/ornicar/haskell-prismic.git
+
+Flag warn-as-error
+  default: False
+  description: Build with warnings-as-errors
+
+Library
+  Exposed-modules:
+                 Prismic.Api
+  Other-modules:
+  GHC-options: -fwarn-missing-signatures -Wall
+  Build-depends: 
+    base >= 4.2,
+    HTTP >= 4000.1.2,
+    aeson >= 0.6 && < 0.7
+  Extensions: 
+
+  if flag(warn-as-error)
+    ghc-options: -Werror
